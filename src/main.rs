@@ -13,7 +13,8 @@ fn panic(info: &PanicInfo) -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    panic!("Some panic message");
+    println!("Test Massage");
+    println!("Hello world");
 
     loop {}
 }
